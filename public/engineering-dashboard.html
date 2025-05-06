@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engineering Dashboard</title>
+  <style>
+    :root {
+      --primary: #005792;
+      --secondary: #f1f1f1;
+      --accent: #00a6fb;
+      --danger: #c62828;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: var(--secondary);
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary);
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+    }
+
+    .flex {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .flex-between {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .toolbar input[type="text"] {
+      width: 300px;
+      padding: 0.5rem;
+    }
+
+    button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: var(--accent);
+    }
+
+    .delete-btn {
+      background: var(--danger);
+    }
+
+    .summary-box {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+      background: #fafafa;
+      flex: 1;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background: var(--primary);
+      color: white;
+    }
+
+    tr:hover {
+      background: #f5f5f5;
+    }
+
+    input, select {
+      padding: 0.5rem;
+      margin: 0.25rem 0;
+    }
+
+    #trashList, #reportOutput {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Engineering Department Dashboard</h1>
+
+  <div class="card toolbar flex-between">
+    <div>
+      <input type="text" id="searchBox" placeholder="Search..." oninput="filterTable()" />
+      <button onclick="sortByDate()">📅 Sort by Date</button>
+      <button onclick="downloadCSV()">📤 Export CSV</button>
+    </div>
+  </div>
+
+  <div class="card flex">
+    <div class="summary-box">
+      <strong>Total Budget:</strong><br />
+      <input type="number" id="budgetInput" value="100000" style="width: 120px;" />
+      <button onclick="updateBudget()">Update</button>
+    </div>
+    <div class="summary-box" id="monthlySummary">
+      Loading...
+    </div>
+  </div>
+
+  <div class="card">
+    <form id="addForm" class="flex" style="flex-wrap: wrap;">
+      <input type="text" name="item_number" placeholder="Item Number" required />
+      <input type="text" name="item" placeholder="Item Name" required />
+      <input type="number" name="amount" placeholder="Amount" step="0.01" required />
+      <input type="number" name="quantity" placeholder="Quantity" required />
+      <select name="month" required>
+        <option value="">Select Month</option>
+        <option>January</option><option>February</option><option>March</option><option>April</option>
+        <option>May</option><option>June</option><option>July</option><option>August</option>
+        <option>September</option><option>October</option><option>November</option><option>December</option>
+      </select>
+      <input type="date" name="purchase_date" required />
+      <input type="text" name="category" placeholder="Category" required />
+      <input type="text" name="order_number" placeholder="Order Number" required />
+      <button type="submit">Add Purchase</button>
+    </form>
+  </div>
+
+  <div class="card">
+    <button onclick="recoverLast()">🔁 Recover Last Deleted</button>
+    <table id="purchaseTable">
+      <thead>
+        <tr>
+          <th>Item Number</th>
+          <th>Item</th>
+          <th>Amount</th>
+          <th>Quantity</th>
+          <th>Month</th>
+          <th>Purchase Date</th>
+          <th>Category</th>
+          <th>Order Number</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>🗑 Trash Bin (Last 10 Deleted)</h3>
+    <ul id="trashList"></ul>
+  </div>
+
+  <div class="card">
+    <h3>📅 Monthly Report by Category</h3>
+    <select id="reportMonth">
+      <option>January</option><option>February</option><option>March</option><option>April</option>
+      <option>May</option><option>June</option><option>July</option><option>August</option>
+      <option>September</option><option>October</option><option>November</option><option>December</option>
+    </select>
+    <input type="number" id="reportYear" value="2024" min="2000" max="2099" />
+    <button onclick="runMonthlyReport()">Run Report</button>
+    <ul id="reportOutput"></ul>
+  </div>
+
+  <script>
+    let deletedItems = [];
+    let budget = 100000;
+
+    function updateBudget() {
+      const val = parseFloat(document.getElementById('budgetInput').value);
+      if (!isNaN(val)) {
+        budget = val;
+        loadTable();
+      }
+    }
+
+    async function loadTable() {
+      const res = await fetch('/api/purchases');
+      const data = await res.json();
+      const tbody = document.querySelector('#purchaseTable tbody');
+      tbody.innerHTML = '';
+      let total = 0, thisMonth = 0, itemsThisMonth = 0;
+      const now = new Date().getMonth();
+      data.forEach(row => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${row.item_number}</td>
+          <td>${row.item}</td>
+          <td>$${row.amount.toFixed(2)}</td>
+          <td>${row.quantity}</td>
+          <td>${row.month}</td>
+          <td>${row.purchase_date}</td>
+          <td>${row.category}</td>
+          <td>${row.order_number}</td>
+          <td><button class="delete-btn" onclick="deleteRow(${row.id})">Delete</button></td>
+        `;
+        tbody.appendChild(tr);
+        total += row.amount;
+        const purchaseMonth = new Date(row.purchase_date).getMonth();
+        if (purchaseMonth === now) {
+          thisMonth += row.amount;
+          itemsThisMonth++;
+        }
+      });
+
+      const summaryDiv = document.getElementById('monthlySummary');
+      summaryDiv.innerHTML = `
+        <strong>📦 Spent This Month:</strong> $${thisMonth.toFixed(2)}<br/>
+        <strong>🧾 Items This Month:</strong> ${itemsThisMonth}<br/>
+        <strong>💡 Remaining:</strong> $${(budget - thisMonth).toFixed(2)}
+      `;
+    }
+
+    function filterTable() {
+      const query = document.getElementById('searchBox').value.toLowerCase();
+      const rows = document.querySelectorAll('#purchaseTable tbody tr');
+      rows.forEach(row => {
+        row.style.display = row.textContent.toLowerCase().includes(query) ? '' : 'none';
+      });
+    }
+
+    function sortByDate() {
+      const tbody = document.querySelector('#purchaseTable tbody');
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+      rows.sort((a, b) => new Date(a.children[5].textContent) - new Date(b.children[5].textContent));
+      tbody.innerHTML = '';
+      rows.forEach(row => tbody.appendChild(row));
+    }
+
+    function downloadCSV() {
+      const rows = document.querySelectorAll("table tr");
+      const csv = Array.from(rows).map(row =>
+        Array.from(row.children).map(cell => `"${cell.innerText}"`).join(",")
+      ).join("\n");
+
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "engineering_data.csv";
+      link.click();
+    }
+
+    async function deleteRow(id) {
+      const row = document.querySelector(`button[onclick="deleteRow(${id})"]`).closest("tr");
+      deletedItems.unshift(row.innerText);
+      if (deletedItems.length > 10) deletedItems.pop();
+      await fetch(`/api/purchases/${id}`, { method: 'DELETE' });
+      updateTrash();
+      loadTable();
+    }
+
+    function updateTrash() {
+      const list = document.getElementById('trashList');
+      list.innerHTML = '';
+      deletedItems.forEach(text => {
+        const li = document.createElement('li');
+        li.textContent = text;
+        list.appendChild(li);
+      });
+    }
+
+    async function recoverLast() {
+      const res = await fetch('/api/recover', { method: 'POST' });
+      if (res.ok) {
+        deletedItems.shift();
+        updateTrash();
+        loadTable();
+      } else {
+        alert('Nothing to recover.');
+      }
+    }
+
+    async function runMonthlyReport() {
+      const monthName = document.getElementById('reportMonth').value;
+      const monthIndex = new Date(Date.parse(monthName +" 1, 2024")).getMonth() + 1;
+      const year = document.getElementById('reportYear').value;
+      const res = await fetch('/api/purchases');
+      const data = await res.json();
+      const output = document.getElementById('reportOutput');
+      output.innerHTML = '';
+
+      const filtered = data.filter(row => {
+        const [m,d,y] = row.purchase_date.split('/');
+        return parseInt(m) === monthIndex && parseInt(y) === parseInt(year);
+      });
+
+      const totals = {};
+      let overall = 0;
+      filtered.forEach(row => {
+        totals[row.category] = (totals[row.category] || 0) + row.amount;
+        overall += row.amount;
+      });
+
+      output.innerHTML += `<li><strong>Total for ${monthName} ${year}: $${overall.toFixed(2)}</strong></li>`;
+      Object.entries(totals).forEach(([cat, amt]) => {
+        output.innerHTML += `<li>${cat}: $${amt.toFixed(2)}</li>`;
+      });
+    }
+
+    document.getElementById('addForm').addEventListener('submit', async e => {
+      e.preventDefault();
+      const form = e.target;
+      const formData = new FormData(form);
+      const body = Object.fromEntries(formData.entries());
+      const parts = body.purchase_date.split('-');
+      body.purchase_date = `${parts[1]}/${parts[2]}/${parts[0]}`;
+      body.amount = parseFloat(body.amount);
+      body.quantity = parseInt(body.quantity);
+      await fetch('/api/purchases', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+      form.reset();
+      loadTable();
+    });
+
+    loadTable();
+  </script>
+</body>
+</html>

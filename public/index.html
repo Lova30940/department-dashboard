@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My HTML Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .sub-header {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .button-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .button-column button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      background-color: #444;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .button-column button:hover {
+      background-color: #666;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>HYATT Finances</h1>
+</header>
+
+<main>
+  <div class="sub-header">
+    <h2>Welcome! Please Select Your Department!</h2>
+  </div>
+
+  <div class="button-column">
+    <a href="engineering-login.html"><button>Engineering</button></a>
+    <a href="housekeeping-login.html"><button>Housekeeping</button></a>
+    <a href="frontdesk-login.html"><button>Front Desk</button></a>
+    <a href="kitchen-login.html"><button>Kitchen</button></a>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; The Hyatt Place</p>
+</footer>
+</body>
+</html>
