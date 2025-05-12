@@ -200,13 +200,13 @@
     }
 
     async function loadTable() {
-      const res = await fetch('/api/purchases');
+      const res = await fetch('/api/purchases/engineering');
       const data = await res.json();
       const tbody = document.querySelector('#purchaseTable tbody');
       tbody.innerHTML = '';
       let total = 0, thisMonth = 0, itemsThisMonth = 0;
       const now = new Date().getMonth();
-      data.forEach(row => {
+      data.forEach((row, index) => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td>${row.item_number}</td>
@@ -217,7 +217,7 @@
           <td>${row.purchase_date}</td>
           <td>${row.category}</td>
           <td>${row.order_number}</td>
-          <td><button class="delete-btn" onclick="deleteRow(${row.id})">Delete</button></td>
+          <td><button class="delete-btn" onclick="deleteRow(${index})">Delete</button></td>
         `;
         tbody.appendChild(tr);
         total += row.amount;
@@ -265,14 +265,25 @@
       link.click();
     }
 
-    async function deleteRow(id) {
-      const row = document.querySelector(`button[onclick="deleteRow(${id})"]`).closest("tr");
-      deletedItems.unshift(row.innerText);
-      if (deletedItems.length > 10) deletedItems.pop();
-      await fetch(`/api/purchases/${id}`, { method: 'DELETE' });
-      updateTrash();
-      loadTable();
-    }
+    async function deleteRow(index) {
+  const res = await fetch('/api/purchases/engineering');
+  const data = await res.json();
+  const deletedItem = data.splice(index, 1)[0];
+
+  // Store in deletedItems array for recovery
+  deletedItems.unshift(deletedItem);
+  if (deletedItems.length > 10) deletedItems.pop();
+
+  // Save the updated list
+  await fetch('/api/purchases/engineering', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  });
+
+  updateTrash();
+  loadTable();
+}
 
     function updateTrash() {
       const list = document.getElementById('trashList');
@@ -299,7 +310,7 @@
       const monthName = document.getElementById('reportMonth').value;
       const monthIndex = new Date(Date.parse(monthName +" 1, 2024")).getMonth() + 1;
       const year = document.getElementById('reportYear').value;
-      const res = await fetch('/api/purchases');
+      const res = await fetch('/api/purchases/engineering');
       const data = await res.json();
       const output = document.getElementById('reportOutput');
       output.innerHTML = '';
