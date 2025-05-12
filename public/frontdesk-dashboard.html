@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Front-Desk Dashboard</title>
+  <style>
+    :root {
+      --primary: #005792;
+      --secondary: #f1f1f1;
+      --accent: #00a6fb;
+      --danger: #c62828;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: var(--secondary);
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary);
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+    }
+
+    .flex {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .toolbar input[type="text"] {
+      width: 300px;
+      padding: 0.5rem;
+    }
+
+    button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: var(--accent);
+    }
+
+    .delete-btn {
+      background: var(--danger);
+    }
+
+    .summary-box {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+      background: #fafafa;
+      flex: 1;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background: var(--primary);
+      color: white;
+    }
+
+    tr:hover {
+      background: #f5f5f5;
+    }
+
+    input, select {
+      padding: 0.5rem;
+      margin: 0.25rem 0;
+    }
+
+    #trashList, #reportOutput {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Front-Desk Dashboard</h1>
+
+  <div class="card toolbar flex-between">
+    <div>
+      <input type="text" id="searchBox" placeholder="Search..." oninput="filterTable()" />
+      <button onclick="sortByDate()">📅 Sort by Date</button>
+      <button onclick="downloadCSV()">📤 Export CSV</button>
+    </div>
+  </div>
+
+  <div class="card flex">
+    <div class="summary-box">
+      <strong>Total Budget:</strong><br />
+      <input type="number" id="budgetInput" value="100000" style="width: 120px;" />
+      <button onclick="updateBudget()">Update</button>
+      <p id="budgetDisplay">Remaining: $0.00</p>
+    </div>
+    <div class="summary-box" id="monthlySummary">
+      Loading...
+    </div>
+  </div>
+
+  <div class="card">
+    <form id="addForm" class="flex" style="flex-wrap: wrap;">
+      <input type="text" name="item_number" placeholder="Item Number" required />
+      <input type="text" name="item" placeholder="Item Name" required />
+      <input type="number" name="amount" placeholder="Amount" step="0.01" required />
+      <input type="number" name="quantity" placeholder="Quantity" required />
+      <select name="month" required>
+        <option value="">Select Month</option>
+        <option>January</option><option>February</option><option>March</option><option>April</option>
+        <option>May</option><option>June</option><option>July</option><option>August</option>
+        <option>September</option><option>October</option><option>November</option><option>December</option>
+      </select>
+      <input type="date" name="purchase_date" required />
+      <input type="text" name="category" placeholder="Category" required />
+      <input type="text" name="order_number" placeholder="Order Number" required />
+      <button type="submit">Add Purchase</button>
+    </form>
+  </div>
+
+  <div class="card">
+    <h3>📅 Monthly Report by Category</h3>
+    <select id="reportMonth">
+      <option>January</option><option>February</option><option>March</option><option>April</option>
+      <option>May</option><option>June</option><option>July</option><option>August</option>
+      <option>September</option><option>October</option><option>November</option><option>December</option>
+    </select>
+    <input type="number" id="reportYear" value="2024" min="2000" max="2099" />
+    <button onclick="runMonthlyReport()">Run Report</button>
+    <ul id="reportOutput"></ul>
+  </div>
+
+  <script>
+    let budget = 100000;
+
+    function updateBudget() {
+      const val = parseFloat(document.getElementById('budgetInput').value);
+      if (!isNaN(val)) {
+        budget = val;
+        displayBudget();
+      }
+    }
+
+    function displayBudget() {
+      document.getElementById('budgetDisplay').textContent = `Remaining: $${budget.toFixed(2)}`;
+    }
+
+    async function loadTable() {
+      const res = await fetch('/api/purchases/frontdesk');
+      const data = await res.json();
+      const tbody = document.querySelector('#purchaseTable tbody');
+      tbody.innerHTML = '';
+      data.forEach(row => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${row.item_number}</td>
+          <td>${row.item}</td>
+          <td>$${row.amount.toFixed(2)}</td>
+          <td>${row.quantity}</td>
+          <td>${row.month}</td>
+          <td>${row.purchase_date}</td>
+          <td>${row.category}</td>
+          <td>${row.order_number}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+      displayBudget();
+    }
+
+    async function runMonthlyReport() {
+      const res = await fetch('/api/purchases/frontdesk');
+      const data = await res.json();
+      document.getElementById('reportOutput').innerText = JSON.stringify(data, null, 2);
+    }
+
+    window.onload = () => {
+      loadTable();
+      displayBudget();
+    };
+  </script>
+</body>
+</html>

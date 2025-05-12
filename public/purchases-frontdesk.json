@@ -1,0 +1,82 @@
+[
+  {
+    "item_number": 758173,
+    "item": "Colgate Toothpaste Case of 24",
+    "amount": 17.3,
+    "month": "January",
+    "purchase_date": "1/9/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W229209299",
+    "quantity": 2
+  },
+  {
+    "item_number": 759704,
+    "item": "Colgate Toothbrush Package of 144",
+    "amount": 29.59,
+    "month": "January",
+    "purchase_date": "1/9/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W229209299",
+    "quantity": 1
+  },
+  {
+    "item_number": 758173,
+    "item": "Colage Toothpaste Case of 24",
+    "amount": 17.3,
+    "month": "February",
+    "purchase_date": "2/10/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W229662670",
+    "quantity": 2
+  },
+  {
+    "item_number": 197941,
+    "item": "Gillette Secret Invisibile Solid Powder Fresh Deodorant Case of 24",
+    "amount": 26.59,
+    "month": "February",
+    "purchase_date": "2/10/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W229662670",
+    "quantity": 1
+  },
+  {
+    "item_number": 138189,
+    "item": "Kenetmd Hyatt Place 28g Facial Soap, Case of 300",
+    "amount": 39.29,
+    "month": "April",
+    "purchase_date": "4/4/2025",
+    "category": "Other",
+    "order_number": "508610377",
+    "quantity": 1
+  },
+  {
+    "item_number": 758173,
+    "item": "Colgate Toothpaste Case of 24",
+    "amount": 25.95,
+    "month": "April",
+    "purchase_date": "4/8/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W230541335",
+    "quantity": 3
+  },
+  {
+    "item_number": 372630,
+    "item": "Business Source Premium Copy Paper",
+    "amount": 80.5,
+    "month": "April",
+    "purchase_date": "4/14/2025",
+    "category": "Office Supplies",
+    "order_number": "W230622637",
+    "quantity": 2
+  },
+  {
+    "item_number": 260409,
+    "item": "Astrobrights Starburst White Speciality Cover Stock Paper",
+    "amount": 32.92,
+    "month": "April",
+    "purchase_date": "4/14/2025",
+    "category": "Office Supplies",
+    "order_number": "W230622637",
+    "quantity": 1
+  }
+]
