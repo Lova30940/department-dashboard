@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Front-Desk Dashboard</title>
+  <title>Kitchen Dashboard</title>
   <style>
     :root {
       --primary: #005792;
@@ -109,8 +110,8 @@
   </style>
 </head>
 <body>
-  <h1>Front-Desk Department Dashboard</h1>
-  <!-- REMAINS IDENTICAL BELOW EXCEPT FOR CSV EXPORT AND FETCH PATH -->
+  <h1>Kitchen Department Dashboard</h1>
+
   <div class="card toolbar flex-between">
     <div>
       <input type="text" id="searchBox" placeholder="Search..." oninput="filterTable()" />
@@ -199,14 +200,13 @@
     }
 
     async function loadTable() {
-      const res = await fetch('purchases-frontdesk.json');
+      const res = await fetch('/api/purchases/kitchen');
       const data = await res.json();
-      console.log("Loaded data:", data);
       const tbody = document.querySelector('#purchaseTable tbody');
       tbody.innerHTML = '';
       let total = 0, thisMonth = 0, itemsThisMonth = 0;
       const now = new Date().getMonth();
-      data.forEach(row => {
+      data.forEach((row, index) => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td>${row.item_number}</td>
@@ -217,7 +217,7 @@
           <td>${row.purchase_date}</td>
           <td>${row.category}</td>
           <td>${row.order_number}</td>
-          <td><button class="delete-btn" onclick="deleteRow(${row.id})">Delete</button></td>
+          <td><button class="delete-btn" onclick="deleteRow(${index})">Delete</button></td>
         `;
         tbody.appendChild(tr);
         total += row.amount;
@@ -261,18 +261,29 @@
       const blob = new Blob([csv], { type: 'text/csv' });
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
-      link.download = "frontdesk_data.csv";
+      link.download = "kitchen_data.csv";
       link.click();
     }
 
-    async function deleteRow(id) {
-      const row = document.querySelector(`button[onclick="deleteRow(${id})"]`).closest("tr");
-      deletedItems.unshift(row.innerText);
-      if (deletedItems.length > 10) deletedItems.pop();
-      await fetch(`/api/purchases/${id}`, { method: 'DELETE' });
-      updateTrash();
-      loadTable();
-    }
+    async function deleteRow(index) {
+  const res = await fetch('/api/purchases/kitchen');
+  const data = await res.json();
+  const deletedItem = data.splice(index, 1)[0];
+
+  // Store in deletedItems array for recovery
+  deletedItems.unshift(deletedItem);
+  if (deletedItems.length > 10) deletedItems.pop();
+
+  // Save the updated list
+  await fetch('/api/purchases/kitchen', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  });
+
+  updateTrash();
+  loadTable();
+}
 
     function updateTrash() {
       const list = document.getElementById('trashList');
@@ -299,7 +310,7 @@
       const monthName = document.getElementById('reportMonth').value;
       const monthIndex = new Date(Date.parse(monthName +" 1, 2024")).getMonth() + 1;
       const year = document.getElementById('reportYear').value;
-      const res = await fetch('purchases-frontdesk.json');
+      const res = await fetch('/api/purchases/kitchen');
       const data = await res.json();
       const output = document.getElementById('reportOutput');
       output.innerHTML = '';
