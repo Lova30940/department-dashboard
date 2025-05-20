@@ -898,5 +898,215 @@
     "category":"Cleaning and Janitorial",
     "order_number":"0151612619",
     "quantity":3
+  },
+  {
+    "item_number":138189.0,
+    "item":"Kenetmd Hyatt Place 28g Facial Soap",
+    "amount":392.90,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Other",
+    "order_number":"W230866313",
+    "quantity":10
+  },
+  {
+    "item_number":142178.0,
+    "item":"Westpoint Home Hyatt T200 Flat Sheet Queen",
+    "amount":448.98,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Linens and Towels",
+    "order_number":"W230866313",
+    "quantity":2
+  },
+  {
+    "item_number":142215.0,
+    "item":"Welspun Preferred Comfort Better Washcloth",
+    "amount":314.88,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Linens and Towels",
+    "order_number":"W230866313",
+    "quantity":3
+  },
+  {
+    "item_number":759977.0,
+    "item":"Grand Patrician Blanket Full 80x90 Natural Case",
+    "amount":148.62,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Linens and Towels",
+    "order_number":"W230866313",
+    "quantity":2
+  },
+  {
+    "item_number":331453.0,
+    "item":"Comfort Plus Tampon Cardboard Regular Vended Case of 200",
+    "amount":89.29,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230866313",
+    "quantity":1
+  },
+  {
+    "item_number":142199.0,
+    "item":"Westpoint Home Hyatt Pillowcase White",
+    "amount":327.18,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Linens and Towels",
+    "order_number":"W230866313",
+    "quantity":2
+  },
+  {
+    "item_number":109930.0,
+    "item":"Hospitality 1 Source Ironing Board Pad And Cover",
+    "amount":133.00,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Hospitality Supplies",
+    "order_number":"W230866313",
+    "quantity":2
+  },
+  {
+    "item_number":502099.0,
+    "item":"Cottonelle Professional 2-Ply Standard Roll Toilet Paper",
+    "amount":536.70,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230866313",
+    "quantity":15
+  },
+  {
+    "item_number":310050.0,
+    "item":"Ultra Thin Pads, Regular",
+    "amount":175.84,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Medical Supplies & Equipment",
+    "order_number":"W230866313",
+    "quantity":15
+  },
+  {
+    "item_number":763656.0,
+    "item":"Trillium Down Alternative Standard Pillow",
+    "amount":103.17,
+    "month":"April",
+    "purchase_date":"4\/30\/2025",
+    "category":"Linens and Towels",
+    "order_number":"W230874022",
+    "quantity":1
+  },
+  {
+    "item_number":109926.0,
+    "item":"Hospitality 1 Source Full Size T-Leg Ironing Board, Charcoal Pad And Cover",
+    "amount":172.86,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Hospitality Supplies",
+    "order_number":"W230887867",
+    "quantity":2
+  },
+  {
+    "item_number":158051.0,
+    "item":"Ecolab Oasis Pro Island Wave Room Refresher 2 Liter",
+    "amount":549.84,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230887867",
+    "quantity":3
+  },
+  {
+    "item_number":762269.0,
+    "item":"Pacific Coast Feather Pillow Standard",
+    "amount":170.07,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Linens & Towels",
+    "order_number":"W230887867",
+    "quantity":1
+  },
+  {
+    "item_number":108873.0,
+    "item":"Sheila Shine 10 Oz Aerosol Shine Stainless Steel Cleaner And Polish",
+    "amount":220.41,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230893376",
+    "quantity":1
+  },
+  {
+    "item_number":345073.0,
+    "item":"Ecolab 2.5 Gal. Oasis Room Refresher Island Wave",
+    "amount":438.90,
+    "month":"May",
+    "purchase_date":"5\/06\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230949352",
+    "quantity":2
+  },
+  {
+    "item_number":137150.0,
+    "item":"Ecolab Liquid Laundry Built Detergent",
+    "amount":757.48,
+    "month":"May",
+    "purchase_date":"5\/06\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230949321",
+    "quantity":4
+  },
+  {
+    "item_number":144621.0,
+    "item":"Ecolab Liquid Laundry Chlorine Bleach",
+    "amount":254.5,
+    "month":"May",
+    "purchase_date":"5\/06\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230949321",
+    "quantity":5
+  },
+  {
+    "item_number":763656.0,
+    "item":"Trillium Down Alternative Standard Pillow",
+    "amount":103.17,
+    "month":"May",
+    "purchase_date":"5\/12\/2025",
+    "category":"Linens & Towels",
+    "order_number":"0508670729",
+    "quantity":1
+  },
+  {
+    "item_number": 502099.0,
+    "item":"Cottonelle Professional 2-Ply Standard Roll Toilet Paper",
+    "amount":357.80,
+    "month":"May",
+    "purchase_date":"5\/12\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"0151795992",
+    "quantity":10
+  },
+  {
+    "item_number": 778907.0,
+    "item":"Kleenex Professional Naturals 2-Ply Facial Tissue Cube Box",
+    "amount":358.20,
+    "month":"May",
+    "purchase_date":"5\/12\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"0151795992",
+    "quantity":10
+  },
+  {
+    "item_number": 203872.0,
+    "item":"Kenetmd 2.5 Gal. Bag-In-Box Shower Gel",
+    "amount":94.10,
+    "month":"May",
+    "purchase_date":"5\/12\/2025",
+    "category":"Other",
+    "order_number":"W231049554",
+    "quantity":2
   }
 ]

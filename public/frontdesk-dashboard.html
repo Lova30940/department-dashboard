@@ -201,7 +201,6 @@
     async function loadTable() {
       const res = await fetch('purchases-frontdesk.json');
       const data = await res.json();
-      console.log("Loaded data:", data);
       const tbody = document.querySelector('#purchaseTable tbody');
       tbody.innerHTML = '';
       let total = 0, thisMonth = 0, itemsThisMonth = 0;

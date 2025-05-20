@@ -1638,5 +1638,275 @@
     "category":"Office Supplies",
     "order_number":"W230653079",
     "quantity":1.0
+  },
+  {
+    "item_number":145435.0,
+    "item":"Prefollow 6-1/2 Replacement Mini Roller Cover Package",
+    "amount":24.60,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230797906",
+    "quantity":2.0
+  },
+  {
+    "item_number":108610.0,
+    "item":"GE 10.1 Oz Silicone II Kitchen And Bath Caulk",
+    "amount":83.56,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230797906",
+    "quantity":1.0
+  },
+  {
+    "item_number":180562.0,
+    "item":"Ecolab First Impression Micro Aerosol Variety Pack Freshener 1.8 Oz",
+    "amount":190.05,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230797906",
+    "quantity":1.0
+  },
+  {
+    "item_number":401367.0,
+    "item":"Linzer Better Brush Set 3 Flat Package Of 3",
+    "amount":13.26,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230797906",
+    "quantity":1.0
+  },
+  {
+    "item_number":131309.0,
+    "item":"Norton Multisand Fine And Medium Sponge Sander",
+    "amount":9.42,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230797906",
+    "quantity":1.0
+  },
+  {
+    "item_number":294350.0,
+    "item":"Maintenance Warehouse 1.5 V AA Alkaline Disposable Battery",
+    "amount":26.53,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"Electrical",
+    "order_number":"W230797906",
+    "quantity":1.0
+  },
+  {
+    "item_number":575265.0,
+    "item":"Korky Quietfill Fill Valve",
+    "amount":95.90,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"Plumbing",
+    "order_number":"W230801892",
+    "quantity":10.0
+  },
+  {
+    "item_number":189849.0,
+    "item":"Kohler Plastic Elongated Toilet Seat Brevia",
+    "amount":124.26,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"Plumbing",
+    "order_number":"W230801892",
+    "quantity":6.0
+  },
+  {
+    "item_number":131381.0,
+    "item":"Warner Tool 12 Tool Pro Grip Blue Steel Soft Grip Taping Knife",
+    "amount":11.43,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230892002",
+    "quantity":1.0
+  },
+  {
+    "item_number":114798.0,
+    "item":"Dap 1 Pt Alex Plus Spackling",
+    "amount":10.51,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230892002",
+    "quantity":1.0
+  },
+  {
+    "item_number":401367.0,
+    "item":"Linzer Better Brush Set",
+    "amount":39.78,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230892002",
+    "quantity":3.0
+  },
+  {
+    "item_number":142223.0,
+    "item":"Gorilla Original Super Glue",
+    "amount":63.72,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230892002",
+    "quantity":4.0
+  },
+  {
+    "item_number":331022.0,
+    "item":"3M Scotchblue Multi-Surface Painter'S Tape",
+    "amount":36.90,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230892002",
+    "quantity":2.0
+  },
+  {
+    "item_number":863392.0,
+    "item":"Norton 03218 P220b Grit 5 Pro Sand Multi Air Disc",
+    "amount":64.20,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230892002",
+    "quantity":3.0
+  },
+  {
+    "item_number":121373.0,
+    "item":"Dynamic Hb21607u Multi Purpose Economy Roller Refill",
+    "amount":28.41,
+    "month":"May",
+    "purchase_date":"5\/01\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230892002",
+    "quantity":1.0
+  },
+  {
+    "item_number":135672.0,
+    "item":"Janitized Windsor Sensor Vacuum Filter Bag",
+    "amount":120.69,
+    "month":"May",
+    "purchase_date":"5\/06\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230949321",
+    "quantity":9.0
+  },
+  {
+    "item_number":531330.0,
+    "item":"Hoover Taskvac Commercial Lightweight Bagless HEPA Upright Vacuum",
+    "amount":428.74,
+    "month":"May",
+    "purchase_date":"5\/06\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W230949321",
+    "quantity":2.0
+  },
+  {
+    "item_number":294350.0,
+    "item":"Maintenance Warehouse 1.5 V AA Alkaline Disposable Battery",
+    "amount":53.06,
+    "month":"May",
+    "purchase_date":"5\/06\/2025",
+    "category":"Electrical",
+    "order_number":"W230949321",
+    "quantity":2.0
+  },
+  {
+    "item_number":319075.0,
+    "item":"Everbilt Hex Head Sheet Metal Screw",
+    "amount":46.6,
+    "month":"May",
+    "purchase_date":"5\/06\/2025",
+    "category":"Hardware",
+    "order_number":"W230954913",
+    "quantity":5.0
+  },
+  {
+    "item_number":124234.0,
+    "item":"Hg-Grid 2 Ft Cross Tee In White Case Of 60",
+    "amount":91.49,
+    "month":"May",
+    "purchase_date":"5\/06\/2025",
+    "category":"Flooring and Ceiling",
+    "order_number":"W230960626",
+    "quantity":1.0
+  },
+  {
+    "item_number":877507.0,
+    "item":"Master Lock 2 In Steel Laminated Keyed Alike Padlock",
+    "amount":125.89,
+    "month":"May",
+    "purchase_date":"5\/07\/2025",
+    "category":"Hardware",
+    "order_number":"W230992677",
+    "quantity":1.0
+  },
+  {
+    "item_number":286557.0,
+    "item":"3m Prpd-100 100 Grit Pro Pad Sanding Pad",
+    "amount":29.91,
+    "month":"May",
+    "purchase_date":"5\/07\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W230992677",
+    "quantity":1.0
+  },
+  {
+    "item_number":213989.0,
+    "item":"Rubbermaid Commercial Executive Lobby Pro Dust Pan",
+    "amount":67.77,
+    "month":"May",
+    "purchase_date":"5\/08\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231013738",
+    "quantity":1.0
+  },
+  {
+    "item_number":189849.0,
+    "item":"Kohler Plastic Elongated Toilet Seat Brevia",
+    "amount":124.26,
+    "month":"May",
+    "purchase_date":"5\/13\/2025",
+    "category":"Plumbing",
+    "order_number":"W231061319",
+    "quantity":6.0
+  },
+  {
+    "item_number":109106.0,
+    "item":"Maintenance Warehouse Alkaline Battery",
+    "amount":22.02,
+    "month":"May",
+    "purchase_date":"5\/13\/2025",
+    "category":"Plumbing",
+    "order_number":"W231061319",
+    "quantity":1.0
+  },
+  {
+    "item_number":755537.0,
+    "item":"Varathane 11 Oz Stain And Polyurethane Spray - Red Mahoganny",
+    "amount":301.56,
+    "month":"May",
+    "purchase_date":"5\/13\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231061319",
+    "quantity":4.0
+  },
+  {
+    "item_number":300543.0,
+    "item":"Ideal Tightsight 600 Amp Ac/Dc Clamp Meter",
+    "amount":271.11,
+    "month":"May",
+    "purchase_date":"5\/13\/2025",
+    "category":"Electrical",
+    "order_number":"W231061319",
+    "quantity":4.0
   }
 ]

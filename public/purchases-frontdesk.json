@@ -78,5 +78,35 @@
     "category": "Office Supplies",
     "order_number": "W230622637",
     "quantity": 1
+  },
+  {
+    "item_number": 761300,
+    "item": "Individually Wrapped Toothbrush",
+    "amount": 11.40,
+    "month": "May",
+    "purchase_date": "5/14/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W231079094",
+    "quantity": 1
+  },
+  {
+    "item_number": 758173,
+    "item": "Colgate Toothpaste Case Of 24",
+    "amount": 8.65,
+    "month": "May",
+    "purchase_date": "5/14/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W231079094",
+    "quantity": 1
+  },
+  {
+    "item_number": 145029,
+    "item": "Freshmint Ada Premium Anticavity Fluoride Toothpaste Packet",
+    "amount": 29.96,
+    "month": "May",
+    "purchase_date": "5/14/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W231079094",
+    "quantity": 1
   }
 ]
