@@ -1108,5 +1108,105 @@
     "category":"Other",
     "order_number":"W231049554",
     "quantity":2
+  },
+  {
+    "item_number": 158051.0,
+    "item":"Ecolab Oasis Pro Island Wave Room Refresher 2 Liter",
+    "amount":183.28,
+    "month":"May",
+    "purchase_date":"5\/27\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231254005",
+    "quantity":1
+  },
+  {
+    "item_number": 213698.0,
+    "item":"Ecolab Liquid Laundry Premium Softener 5 Gallons",
+    "amount":206.03,
+    "month":"May",
+    "purchase_date":"5\/27\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231254005",
+    "quantity":1
+  },
+  {
+    "item_number": 137150.0,
+    "item":"Ecolab Liquid Laundry Built Detergent, 5 Gal",
+    "amount":189.37,
+    "month":"May",
+    "purchase_date":"5\/27\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231254005",
+    "quantity":1
+  },
+  {
+    "item_number": 142199.0,
+    "item":"Westpoint Home Hyatt 250tc Pillowcase White Queen 21x33",
+    "amount":490.74,
+    "month":"May",
+    "purchase_date":"5\/27\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231254005",
+    "quantity":3
+  },
+  {
+    "item_number": 117768.0,
+    "item":"Maintenance Warehouse 18 In Microfiber Looped Wet Mop Pad",
+    "amount":77.8,
+    "month":"May",
+    "purchase_date":"5\/29\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231304178",
+    "quantity":20
+  },
+  {
+    "item_number": 114820.0,
+    "item":"Palmolive 3 Oz Liquid Dish Soap",
+    "amount":68.61,
+    "month":"May",
+    "purchase_date":"5\/29\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231304178",
+    "quantity":1
+  },
+  {
+    "item_number": 502099.0,
+    "item":"Cottonelle Professional 2-Ply Standard Roll Toilet Paper",
+    "amount":715.60,
+    "month":"May",
+    "purchase_date":"5\/29\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231304178",
+    "quantity":20
+  },
+  {
+    "item_number": 104635.0,
+    "item":"Comfort Bay Facial Tissue Cube Box",
+    "amount":471.60,
+    "month":"May",
+    "purchase_date":"5\/29\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231304178",
+    "quantity":20
+  },
+  {
+    "item_number": 503205.0,
+    "item":"Clorox Clean-Up Disinfectant Cleaner With Bleach Spray",
+    "amount":392.42,
+    "month":"May",
+    "purchase_date":"5\/29\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231304178",
+    "quantity":7
+  },
+  {
+    "item_number": 762269.0,
+    "item":"Pacific Coast Feather Pillow Standard",
+    "amount":170.07,
+    "month":"May",
+    "purchase_date":"5\/29\/2025",
+    "category":"Linens & Towels",
+    "order_number":"W231304178",
+    "quantity":1
   }
 ]

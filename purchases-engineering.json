@@ -1908,5 +1908,95 @@
     "category":"Electrical",
     "order_number":"W231061319",
     "quantity":4.0
+  },
+  {
+    "item_number":531330.0,
+    "item":"Hoover Taskvac Commercial Lightweight Bagless HEPA Upright Vacuum",
+    "amount":1071.85,
+    "month":"May",
+    "purchase_date":"5\/22\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231207600",
+    "quantity":5.0
+  },
+  {
+    "item_number":98009.0,
+    "item":"Rust-Oleum 15 Oz High Performance Enamel Gloss Spray Paint",
+    "amount":100.24,
+    "month":"May",
+    "purchase_date":"5\/22\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231209762",
+    "quantity":8.0
+  },
+  {
+    "item_number":331857.0,
+    "item":"Klein Tools 14-In-1 Multi-Bit Adjustable Length Screwdriver",
+    "amount":28.16,
+    "month":"May",
+    "purchase_date":"5\/22\/2025",
+    "category":"Tools",
+    "order_number":"W231216554",
+    "quantity":1.0
+  },
+  {
+    "item_number":158308.0,
+    "item":"Conair Thinner Digital Precision Scale",
+    "amount":29.07,
+    "month":"May",
+    "purchase_date":"5\/29\/2025",
+    "category":"Medical Supplies and Equipment",
+    "order_number":"W231302344",
+    "quantity":1.0
+  },
+  {
+    "item_number":280963.0,
+    "item":"Hercules 5.5 Oz. Clear Plumber'S Caulk",
+    "amount":87.80,
+    "month":"May",
+    "purchase_date":"5\/29\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231302344",
+    "quantity":20.0
+  },
+  {
+    "item_number":300815.0,
+    "item":"Prime Wire & Cable 25 Ft 13 Amp Outdoor Power Extension Cord",
+    "amount":38.64,
+    "month":"May",
+    "purchase_date":"5\/30\/2025",
+    "category":"Electrical",
+    "order_number":"W231315957",
+    "quantity":4.0
+  },
+  {
+    "item_number":917704.0,
+    "item":"Prime Wire & Cable 6-Outlet Power Strip W/ 3 Ft Cord And Wall",
+    "amount":28.41,
+    "month":"May",
+    "purchase_date":"5\/30\/2025",
+    "category":"Electrical",
+    "order_number":"W231315957",
+    "quantity":3.0
+  },
+  {
+    "item_number":192363.0,
+    "item":"Klein Tools Yellow/Black Knife And Scissor Sharpener",
+    "amount":22.77,
+    "month":"May",
+    "purchase_date":"5\/30\/2025",
+    "category":"Tools",
+    "order_number":"W231315957",
+    "quantity":1.0
+  },
+  {
+    "item_number":157171.0,
+    "item":"Klein Tools Bearing-Assisted Open Pocket Knife",
+    "amount":74.14,
+    "month":"May",
+    "purchase_date":"5\/30\/2025",
+    "category":"Tools",
+    "order_number":"W231315957",
+    "quantity":2.0
   }
 ]
