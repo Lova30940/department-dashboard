@@ -1208,5 +1208,125 @@
     "category":"Linens & Towels",
     "order_number":"W231304178",
     "quantity":1
+  },
+  {
+    "item_number": 138189.0,
+    "item":"Kenetmd Hyatt Place 28g Facial Soap",
+    "amount":589.35,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Other",
+    "order_number":"W231405635",
+    "quantity":15
+  },
+  {
+    "item_number": 203872.0,
+    "item":"Kenetmd 2.5 Gal. Bag-In-Box Shower Gel",
+    "amount":470.5,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Other",
+    "order_number":"W231405635",
+    "quantity":10
+  },
+  {
+    "item_number": 502099.0,
+    "item":"Cottonelle Professional 2-Ply Standard Roll Toilet Paper",
+    "amount":357.8,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231405635",
+    "quantity":10
+  },
+  {
+    "item_number": 158051.0,
+    "item":"Ecolab Oasis Pro Island Wave Room Refresher 2 Liter",
+    "amount":366.56,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231405635",
+    "quantity":2
+  },
+  {
+    "item_number": 137150.0,
+    "item":"Ecolab Liquid Laundry Built Detergent",
+    "amount":946.85,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231405635",
+    "quantity":5
+  },
+  {
+    "item_number": 158044.0,
+    "item":"Ecolab Tri-Star So Fresh Laundry Softener 5 Gallon",
+    "amount":621.2,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231405635",
+    "quantity":5
+  },
+  {
+    "item_number": 116200.0,
+    "item":"Furniture Scratch Cover, For Dark Woods",
+    "amount":9.87,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Other",
+    "order_number":"W231405635",
+    "quantity":1
+  },
+  {
+    "item_number": 142199.0,
+    "item":"Westpoint Home Hyatt 250tc Pillowcase White Queen 21x33",
+    "amount":490.74,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Linens & Towels",
+    "order_number":"W231405635",
+    "quantity":3
+  },
+  {
+    "item_number": 202818.0,
+    "item":"World Amenities Makeup Remover Wipes, Sachet, Alcohol Free, Vitamin E",
+    "amount":24.50,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Hospitality Supplies",
+    "order_number":"W231405635",
+    "quantity":1
+  },
+  {
+    "item_number": 203252.0,
+    "item":"Furniture Polish, Fresh Lemon Scent, 12.5 Oz Aerosol Spray",
+    "amount":132.30,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231405635",
+    "quantity":1
+  },
+  {
+    "item_number": 138884.0,
+    "item":"Hyatt T235 Natural Fill Down 23oz Comforter King",
+    "amount":162.10,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Linens & Towels",
+    "order_number":"W231407907",
+    "quantity":1
+  },
+  {
+    "item_number": 138885.0,
+    "item":"Hyatt T235 Natural Fill Down 19.5oz Comforter Queen",
+    "amount":270.5,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Linens & Towels",
+    "order_number":"W231409905",
+    "quantity":2
   }
 ]

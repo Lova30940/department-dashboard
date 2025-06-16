@@ -1998,5 +1998,215 @@
     "category":"Tools",
     "order_number":"W231315957",
     "quantity":2.0
+  },
+  {
+    "item_number":108562.0,
+    "item":"Zep Grout Cleaner & Brightener 32 Oz",
+    "amount":42.08,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231395333",
+    "quantity":2.0
+  },
+  {
+    "item_number":356975.0,
+    "item":"Drano PRO Strength Max Gel Clog Remover 32 Oz",
+    "amount":112,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231395333",
+    "quantity":1.0
+  },
+  {
+    "item_number":"096930.0",
+    "item":"Ridgid Powerclear Drain Cleaner Machine",
+    "amount":259.76,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Plumbing",
+    "order_number":"W231395333",
+    "quantity":1.0
+  },
+  {
+    "item_number":285552.0,
+    "item":"Milwaukee 11a Corded 4-1/2 In. Small Angle Grinder",
+    "amount":154.99,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Tools",
+    "order_number":"W231395333",
+    "quantity":1.0
+  },
+  {
+    "item_number":285549.0,
+    "item":"Custom Leathercraft 13 In. Width Black Heavy-Duty Tool Backpack",
+    "amount":297,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Tools",
+    "order_number":"W231395333",
+    "quantity":2.0
+  },
+  {
+    "item_number":531330.0,
+    "item":"Hoover Taskvac Commercial Lightweight Bagless HEPA Upright Vacuum",
+    "amount":1071.85,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231395333",
+    "quantity":5.0
+  },
+  {
+    "item_number":306124.0,
+    "item":"Milwaukee M12 Fuel 12v 3/8 In. Lithium-Ion Brushless Cordless Ratchet",
+    "amount":226.54,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Tools",
+    "order_number":"W231395333",
+    "quantity":1.0
+  },
+  {
+    "item_number":490693.0,
+    "item":"Zep 18 Oz Commercial Foaming Wall Cleaner",
+    "amount":110.71,
+    "month":"June",
+    "purchase_date":"6\/04\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231395333",
+    "quantity":1.0
+  },
+  {
+    "item_number":208320.0,
+    "item":"Estwing 6 In 1 Multipurpose Phillips Slotted And Hex Screwdriver Blue Yellow",
+    "amount":37.6,
+    "month":"June",
+    "purchase_date":"6\/05\/2025",
+    "category":"Tools",
+    "order_number":"W231422074",
+    "quantity":4.0
+  },
+  {
+    "item_number":289878.0,
+    "item":"Duck Pro By Shurtape Contractor Grade, Colored Cloth Duct Tape Black",
+    "amount":47.46,
+    "month":"June",
+    "purchase_date":"6\/10\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231479813",
+    "quantity":3.0
+  },
+  {
+    "item_number":189892.0,
+    "item":"Fluidmaster 400acn3p5 Fill Valve",
+    "amount":115.89,
+    "month":"June",
+    "purchase_date":"6\/10\/2025",
+    "category":"Plumbing",
+    "order_number":"W231479813",
+    "quantity":1.0
+  },
+  {
+    "item_number":115009.0,
+    "item":"Zep 1.35 Gallon Concentrate Pressure Wash Cleaner",
+    "amount":30.64,
+    "month":"June",
+    "purchase_date":"6\/10\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231479813",
+    "quantity":1.0
+  },
+  {
+    "item_number":331983.0,
+    "item":"Klein Tools All-In-1 Precision Screwdriver Set With Case",
+    "amount":38.41,
+    "month":"June",
+    "purchase_date":"6\/10\/2025",
+    "category":"Tools",
+    "order_number":"W231479813",
+    "quantity":1.0
+  },
+  {
+    "item_number":321332.0,
+    "item":"Philips 28w T5 Fluorescent Linear Bulb",
+    "amount":216.56,
+    "month":"June",
+    "purchase_date":"6\/10\/2025",
+    "category":"Lighting and Ceiling Fans",
+    "order_number":"W231493547",
+    "quantity":1.0
+  },
+  {
+    "item_number":189849.0,
+    "item":"Kohler Plastic Elongated Toilet Seat Brevia Quick Attach Quick Release",
+    "amount":207.1,
+    "month":"June",
+    "purchase_date":"6\/13\/2025",
+    "category":"Plumbing",
+    "order_number":"W231550921",
+    "quantity":10.0
+  },
+  {
+    "item_number":150606.0,
+    "item":"Hydro-Balance 18 Oz. Zip Clean Coil Cleaner",
+    "amount":52.6,
+    "month":"June",
+    "purchase_date":"6\/13\/2025",
+    "category":"HVAC",
+    "order_number":"W231550921",
+    "quantity":10.0
+  },
+  {
+    "item_number":288003.0,
+    "item":"Clear Vinyl Drain Tubing",
+    "amount":34.12,
+    "month":"June",
+    "purchase_date":"6\/13\/2025",
+    "category":"HVAC",
+    "order_number":"W231550921",
+    "quantity":1.0
+  },
+  {
+    "item_number":271651.0,
+    "item":"Maintenance Warehouse 3-Piece Adjustable Wrench Set",
+    "amount":18.27,
+    "month":"June",
+    "purchase_date":"6\/13\/2025",
+    "category":"Tools",
+    "order_number":"W231550921",
+    "quantity":1.0
+  },
+  {
+    "item_number":275763.0,
+    "item":"Milwaukee Shockwave Impact Duty 3 Magnetic Drive Guide",
+    "amount":9.87,
+    "month":"June",
+    "purchase_date":"6\/13\/2025",
+    "category":"Tools",
+    "order_number":"W231550921",
+    "quantity":1.0
+  },
+  {
+    "item_number":238409.0,
+    "item":"Klein Tools Magnetic Digital Pocket Thermometer",
+    "amount":34.09,
+    "month":"June",
+    "purchase_date":"6\/13\/2025",
+    "category":"HVAC",
+    "order_number":"W231550921",
+    "quantity":1.0
+  },
+  {
+    "item_number":192384.0,
+    "item":"Klein Tools Magnetizer And Demagnetizer For Screwdriver Bits And Tips",
+    "amount":14.15,
+    "month":"June",
+    "purchase_date":"6\/13\/2025",
+    "category":"Tools",
+    "order_number":"W231550921",
+    "quantity":1.0
   }
 ]
