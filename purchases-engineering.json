@@ -2208,5 +2208,125 @@
     "category":"Tools",
     "order_number":"W231550921",
     "quantity":1.0
+  },
+  {
+    "item_number":117918.0,
+    "item":"Maintenance Warehouse® 9V Alkaline Disposable Standard Battery",
+    "amount":81.61,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Electrical",
+    "order_number":"W231568734",
+    "quantity":1.0
+  },
+  {
+    "item_number":967821.0,
+    "item":"Duracell® Procell® Constant AA Alkaline Battery",
+    "amount":51.38,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Electrical",
+    "order_number":"W231568734",
+    "quantity":1.0
+  },
+  {
+    "item_number":113118.0,
+    "item":"Weller 140/100-Watt Dual Heat Universal Soldering Gun Kit W/ Led Lighting",
+    "amount":63.11,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Tools",
+    "order_number":"W231568734",
+    "quantity":1.0
+  },
+  {
+    "item_number":109606.0,
+    "item":"Dremel Versatip Butane Soldering Torch",
+    "amount":50.68,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Tools",
+    "order_number":"W231568734",
+    "quantity":1.0
+  },
+  {
+    "item_number":296340.0,
+    "item":"Worthington 8 Oz. 50/50 Leaded Solder",
+    "amount":13.72,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Tools",
+    "order_number":"W231568734",
+    "quantity":1.0
+  },
+  {
+    "item_number":701241.0,
+    "item":"Honeywell Lyric T6 Pro Wi-Fi Programmable Thermostat",
+    "amount":1382.34,
+    "month":"June",
+    "purchase_date":"6\/24\/2025",
+    "category":"HVAC",
+    "order_number":"W231700484",
+    "quantity":6.0
+  },
+  {
+    "item_number":349864.0,
+    "item":"Rust-Oleum Rust Dissolver, 8 Oz. Jelly",
+    "amount":39.34,
+    "month":"June",
+    "purchase_date":"6\/27\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231768886",
+    "quantity":1.0
+  },
+  {
+    "item_number":189904.0,
+    "item":"Rust-Oleum 1 Gal High Performance 2300 System Traffic Zone Striping Paint Semi-Gloss Black",
+    "amount":73.19,
+    "month":"June",
+    "purchase_date":"6\/27\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231768886",
+    "quantity":1.0
+  },
+  {
+    "item_number":510042.0,
+    "item":"Wooster 9 Super/Fab 1/2 Nap Roller Cover",
+    "amount":26.58,
+    "month":"June",
+    "purchase_date":"6\/27\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231768886",
+    "quantity":1.0
+  },
+  {
+    "item_number":150250.0,
+    "item":"Supco Stainless Steel Refrigeration Fin Comb",
+    "amount":16.55,
+    "month":"June",
+    "purchase_date":"6\/27\/2025",
+    "category":"HVAC",
+    "order_number":"W231768886",
+    "quantity":1.0
+  },
+  {
+    "item_number":106692.0,
+    "item":"Dap 1 Quart Fast 'N Final Lightweight Spackling",
+    "amount":24.78,
+    "month":"June",
+    "purchase_date":"6\/27\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231768886",
+    "quantity":2.0
+  },
+  {
+    "item_number":328976.0,
+    "item":"Ryobi 1/4 In. X 35 Ft. 3300 Psi Pressure Washer Replacement Hose",
+    "amount":43.91,
+    "month":"June",
+    "purchase_date":"6\/27\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W231768886",
+    "quantity":1.0
   }
 ]

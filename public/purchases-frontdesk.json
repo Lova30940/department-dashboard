@@ -108,5 +108,15 @@
     "category": "Hospitality Supplies",
     "order_number": "W231079094",
     "quantity": 1
+  },
+  {
+    "item_number": 758173,
+    "item": "Colgate Toothpaste Case Of 24",
+    "amount": 8.65,
+    "month": "June",
+    "purchase_date": "6/24/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W231668383",
+    "quantity": 1
   }
 ]

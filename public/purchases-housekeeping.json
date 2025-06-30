@@ -985,7 +985,7 @@
     "amount":175.84,
     "month":"April",
     "purchase_date":"4\/30\/2025",
-    "category":"Medical Supplies & Equipment",
+    "category":"Medical Supplies and Equipment",
     "order_number":"W230866313",
     "quantity":15
   },
@@ -1025,7 +1025,7 @@
     "amount":170.07,
     "month":"May",
     "purchase_date":"5\/01\/2025",
-    "category":"Linens & Towels",
+    "category":"Linens and Towels",
     "order_number":"W230887867",
     "quantity":1
   },
@@ -1075,7 +1075,7 @@
     "amount":103.17,
     "month":"May",
     "purchase_date":"5\/12\/2025",
-    "category":"Linens & Towels",
+    "category":"Linens and Towels",
     "order_number":"0508670729",
     "quantity":1
   },
@@ -1205,7 +1205,7 @@
     "amount":170.07,
     "month":"May",
     "purchase_date":"5\/29\/2025",
-    "category":"Linens & Towels",
+    "category":"Linens and Towels",
     "order_number":"W231304178",
     "quantity":1
   },
@@ -1285,7 +1285,7 @@
     "amount":490.74,
     "month":"June",
     "purchase_date":"6\/04\/2025",
-    "category":"Linens & Towels",
+    "category":"Linens and Towels",
     "order_number":"W231405635",
     "quantity":3
   },
@@ -1315,7 +1315,7 @@
     "amount":162.10,
     "month":"June",
     "purchase_date":"6\/04\/2025",
-    "category":"Linens & Towels",
+    "category":"Linens and Towels",
     "order_number":"W231407907",
     "quantity":1
   },
@@ -1325,8 +1325,78 @@
     "amount":270.5,
     "month":"June",
     "purchase_date":"6\/04\/2025",
-    "category":"Linens & Towels",
+    "category":"Linens and Towels",
     "order_number":"W231409905",
+    "quantity":2
+  },
+  {
+    "item_number": 119075.0,
+    "item":"Maintenance Warehouse® 7-10 Gal. 5 Mic High-Density Trash Bag",
+    "amount":93,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"0152096739",
+    "quantity":5
+  },
+  {
+    "item_number": 202818.0,
+    "item":"World Amenities Makeup Remover Wipes, Sachet, Alcohol Free",
+    "amount":98,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Hospitality Supplies",
+    "order_number":"0152096739",
+    "quantity":4
+  },
+  {
+    "item_number": 138190.0,
+    "item":"Kenetmd Hyatt Place 27ml Body Lotion",
+    "amount":120.99,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Other",
+    "order_number":"0152096739",
+    "quantity":3
+  },
+  {
+    "item_number": 331453.0,
+    "item":"Comfort Plus Tampon Cardboard Regular Vended Case Of 200",
+    "amount":89.29,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Other",
+    "order_number":"0152096739",
+    "quantity":1
+  },
+  {
+    "item_number": 502099.0,
+    "item":"Cottonelle Professional 2-Ply Standard Roll Toilet Paper",
+    "amount":357.8,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"0152096739",
+    "quantity":10
+  },
+  {
+    "item_number": 104635.0,
+    "item":"Comfort Bay Facial Tissue Cube Box Case Of 36",
+    "amount":113.25,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"0152096739",
+    "quantity":5
+  },
+  {
+    "item_number": 310050.0,
+    "item":"Ultra Thin Pads, Regular",
+    "amount":175.84,
+    "month":"June",
+    "purchase_date":"6\/16\/2025",
+    "category":"Medical Supplies and Equipment",
+    "order_number":"0152096739",
     "quantity":2
   }
 ]
