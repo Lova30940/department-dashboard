@@ -1398,5 +1398,285 @@
     "category":"Medical Supplies and Equipment",
     "order_number":"0152096739",
     "quantity":2
+  },
+  {
+    "item_number": 319607.0,
+    "item":"Berry Global 10 Gal. 24 In. X 24 In. 6 Mic. High Density Trash Bags",
+    "amount":198.50,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231840463",
+    "quantity":10
+  },
+  {
+    "item_number": 117768.0,
+    "item":"Maintenance Warehouse 18 In Microfiber Looped Wet Mop Pad",
+    "amount":11.67,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231840463",
+    "quantity":3
+  },
+  {
+    "item_number": 137150.0,
+    "item":"Ecolab Liquid Laundry Built Detergent, 5 Gal",
+    "amount":946.85,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231840463",
+    "quantity":5
+  },
+  {
+    "item_number": 144621.0,
+    "item":"Ecolab Liquid Laundry Chlorine Bleach, 5 Gal",
+    "amount":254.50,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231840463",
+    "quantity":5
+  },
+  {
+    "item_number": 144621.0,
+    "item":"World Amenities Makeup Remover Wipes, Sachet, Alcohol Free, Vitamin E",
+    "amount":73.50,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Hospitality Supplies",
+    "order_number":"W231840463",
+    "quantity":3
+  },
+  {
+    "item_number": 158051.0,
+    "item":"Ecolab Oasis Pro Island Wave Room Refresher 2 Liter",
+    "amount":183.28,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231840463",
+    "quantity":1
+  },
+  {
+    "item_number": 502099.0,
+    "item":"Cottonelle Professional 2-Ply Standard Roll Toilet Paper",
+    "amount":357.80,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231840463",
+    "quantity":10
+  },
+  {
+    "item_number": 759977.0,
+    "item":"Grand Patrician Blanket Full 80x90 Natural Case Of 4",
+    "amount":148.62,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"W231840463",
+    "quantity":2
+  },
+  {
+    "item_number": 142199.0,
+    "item":"Westpoint Home Hyatt 250tc Pillowcase White Queen 21x33",
+    "amount":327.18,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"W231840463",
+    "quantity":2
+  },
+  {
+    "item_number": 109930.0,
+    "item":"Hospitality 1 Source Ironing Board Pad And Cover, Khaki Bungee",
+    "amount":205.44,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Hospitality Supplies",
+    "order_number":"W231840463",
+    "quantity":3
+  },
+  {
+    "item_number": 503205.0,
+    "item":"Clorox Clean-Up Disinfectant Cleaner With Bleach Spray, Cloroxpro, 32 Oz",
+    "amount":280.30,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W231840463",
+    "quantity":5
+  },
+  {
+    "item_number": 204899.0,
+    "item":"1888 Mills Hand Towel 16x30 4.50lb Fibertone Grey",
+    "amount":324.84,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152250001",
+    "quantity":1
+  },
+  {
+    "item_number": 140819.0,
+    "item":"Hyatt Rhapsody Wrap Pillow Standard",
+    "amount":332.56,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152250001",
+    "quantity":2
+  },
+  {
+    "item_number": 142199.0,
+    "item":"Westpoint Home Hyatt 250tc Pillowcase White Queen 21x33",
+    "amount":490.74,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152250001",
+    "quantity":3
+  },
+  {
+    "item_number": 142179.0,
+    "item":"Westpoint Home Hyatt T200 Fitted Sheet 78x80x15 King White/Brown",
+    "amount":770.07,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152250001",
+    "quantity":3
+  },
+  {
+    "item_number": 142198.0,
+    "item":"Westpoint Home Hyatt 200tc Fitted Sheet White Queen 60x80x15",
+    "amount":657.81,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152250001",
+    "quantity":3
+  },
+  {
+    "item_number": 763483.0,
+    "item":"1888 Mills Adorn Waffle Weave Top Sheet White Queen 96x120",
+    "amount":1113.76,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152250001",
+    "quantity":4
+  },
+  {
+    "item_number": 763484.0,
+    "item":"1888 Mills Adorn Waffle Weave Top Sheet White King 110x120",
+    "amount":913.62,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152250001",
+    "quantity":3
+  },
+  {
+    "item_number": 142215.0,
+    "item":"Welspun Preferred Comfort Better Washcloth 12x12",
+    "amount":222.62,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152250001",
+    "quantity":2
+  },
+  {
+    "item_number": 158724.0,
+    "item":"Lasko Pro-Performance Pivoting Utility Fan, Black",
+    "amount":228.74,
+    "month":"July",
+    "purchase_date":"7\/14\/2025",
+    "category":"HVAC",
+    "order_number":"W231999756",
+    "quantity":2
+  },
+  {
+    "item_number": 204169.0,
+    "item":"Generic 17x1/2 Standard Hook Male Hanger Matteblack Wood Chrome",
+    "amount":101.55,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Hospitality Supplies",
+    "order_number":"W232036907",
+    "quantity":1
+  },
+  {
+    "item_number": 138190.0,
+    "item":"Kenetmd Hyatt Place 27ml Body Lotion",
+    "amount":40.33,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Other",
+    "order_number":"W232036907",
+    "quantity":1
+  },
+  {
+    "item_number": 502099.0,
+    "item":"Cottonelle Professional 2-Ply Standard Roll Toilet Paper",
+    "amount":357.80,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W232036907",
+    "quantity":10
+  },
+  {
+    "item_number": 203873.0,
+    "item":"Kenetmd Hyatt Place 15oz Shampoo For Dispenser",
+    "amount":189.45,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Other",
+    "order_number":"W232036907",
+    "quantity":5
+  },
+  {
+    "item_number": 114820.0,
+    "item":"Palmolive 3 Ounce Palmolive Liquid Dish Soap",
+    "amount":68.61,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W232036907",
+    "quantity":1
+  },
+  {
+    "item_number": 203872.0,
+    "item":"Kenetmd 2.5 Gal. Bag-In-Box Shower Gel",
+    "amount":235.25,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Other",
+    "order_number":"W232036907",
+    "quantity":5
+  },
+  {
+    "item_number": 761116.0,
+    "item":"Tearstrip Laundry Bag",
+    "amount":79.98,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Hospitality Supplies",
+    "order_number":"W232036907",
+    "quantity":2
+  },
+  {
+    "item_number": 144629.0,
+    "item":"Poly-Pak Ice Bucket Bags 12 In. x 15 In. 0.85 Gauge",
+    "amount":43.84,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Food Service",
+    "order_number":"W232036907",
+    "quantity":1
   }
 ]

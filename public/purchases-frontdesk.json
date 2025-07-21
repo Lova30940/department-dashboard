@@ -118,5 +118,25 @@
     "category": "Hospitality Supplies",
     "order_number": "W231668383",
     "quantity": 1
+  },
+  {
+    "item_number": 761300,
+    "item": "Individually Wrapped Toothbrush",
+    "amount": 11.40,
+    "month": "July",
+    "purchase_date": "7/15/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W232040796",
+    "quantity": 1
+  },
+  {
+    "item_number": 145029,
+    "item": "Freshmint Ada Premium Anticavity Fluoride Toothpaste Packet",
+    "amount": 29.96,
+    "month": "July",
+    "purchase_date": "7/15/2025",
+    "category": "Hospitality Supplies",
+    "order_number": "W232040796",
+    "quantity": 1
   }
 ]

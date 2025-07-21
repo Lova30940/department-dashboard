@@ -2328,5 +2328,85 @@
     "category":"Paint and Supplies",
     "order_number":"W231768886",
     "quantity":1.0
+  },
+  {
+    "item_number":285988.0,
+    "item":"Sharp 1 Cu Ft Countertop Microwave, 1000w, Stainless Steel",
+    "amount":383.38,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Appliances",
+    "order_number":"W231834398",
+    "quantity":1.0
+  },
+  {
+    "item_number":150606.0,
+    "item":"Hydro-Balance 18 Oz. Zip Clean Coil Cleaner",
+    "amount":63.12,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"HVAC",
+    "order_number":"W231834398",
+    "quantity":12.0
+  },
+  {
+    "item_number":189974.0,
+    "item":"Seasons 1.7 Cu. Ft. Compact Refrigerator Energy Star, All-Fridge, Black",
+    "amount":347.12,
+    "month":"July",
+    "purchase_date":"7\/02\/2025",
+    "category":"Appliances",
+    "order_number":"W231834398",
+    "quantity":4.0
+  },
+  {
+    "item_number":531039.0,
+    "item":"Danby 2.6 Cu Ft Black Energy Star Compact Refrigerator",
+    "amount":1057.72,
+    "month":"July",
+    "purchase_date":"7\/09\/2025",
+    "category":"Appliances",
+    "order_number":"W231949158",
+    "quantity":4.0
+  },
+  {
+    "item_number":375018.0,
+    "item":"2 Tank To Bowl Gasket",
+    "amount":57.15,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Plumbing",
+    "order_number":"W232031135",
+    "quantity":5.0
+  },
+  {
+    "item_number":600603.0,
+    "item":"Towel Bar Set, Polished Stainless Steel",
+    "amount":35.88,
+    "month":"July",
+    "purchase_date":"7\/15\/2025",
+    "category":"Hardware",
+    "order_number":"W232031644",
+    "quantity":4.0
+  },
+  {
+    "item_number":269693.0,
+    "item":"Diablo Tools 7-1/4 In X 60-Tooth Fine Finish Circular Saw Blade",
+    "amount":24.69,
+    "month":"July",
+    "purchase_date":"7\/17\/2025",
+    "category":"Tools",
+    "order_number":"W232072797",
+    "quantity":1.0
+  },
+  {
+    "item_number":304218.0,
+    "item":"Gorilla 30 Yd. Tough And Wide Duct Tape",
+    "amount":100.32,
+    "month":"July",
+    "purchase_date":"7\/17\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W232072797",
+    "quantity":6.0
   }
 ]
