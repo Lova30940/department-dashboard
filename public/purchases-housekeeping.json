@@ -1678,5 +1678,65 @@
     "category":"Food Service",
     "order_number":"W232036907",
     "quantity":1
+  },
+  {
+    "item_number": 142215.0,
+    "item":"Welspun Preferred Comfort Better Washcloth 12x12, Case Of 180",
+    "amount":222.62,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152439853",
+    "quantity":2
+  },
+  {
+    "item_number": 330362.0,
+    "item":"Hyatt Cotton Hand Towel 16X32 5.09lb Cotton White Case Of 60",
+    "amount":224.44,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152439853",
+    "quantity":2
+  },
+  {
+    "item_number": 203870.0,
+    "item":"Kenetmd 2.5 Gal. Bag-In-Box Shampoo",
+    "amount":235.25,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Other",
+    "order_number":"0152439853",
+    "quantity":5
+  },
+  {
+    "item_number": 137150.0,
+    "item":"Ecolab Liquid Laundry Built Detergent, 5 Gal",
+    "amount":946.85,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"0152439853",
+    "quantity":5
+  },
+  {
+    "item_number": 502099.0,
+    "item":"Cottonelle Professional 2-Ply Standard Roll Toilet Paper",
+    "amount":357.80,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"0152439853",
+    "quantity":10
+  },
+  {
+    "item_number": 330361.0,
+    "item":"Hyatt Cotton Bath Towel 27X60 16.09lb Cotton White Case Of 24",
+    "amount":682.5,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Linens and Towels",
+    "order_number":"0152439853",
+    "quantity":5
   }
 ]

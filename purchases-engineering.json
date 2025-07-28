@@ -1020,6 +1020,46 @@
     "quantity":10.0
   },
   {
+    "item_number":"3769K51.0",
+    "item":"Chrome-Plated Door Hardware For Plastic Laminate Toilet Partition",
+    "amount":177.28,
+    "month":"February",
+    "purchase_date":"2\/11\/2025",
+    "category":"MCMASTER",
+    "order_number":"0211JALEXANDER",
+    "quantity":4.0
+  },
+  {
+    "item_number":"8357T7.0",
+    "item":"Hdmi Video Cord, Hdmi x Dvi-D Plugs, Flexible, 10 Feet Long",
+    "amount":98.40,
+    "month":"February",
+    "purchase_date":"2\/11\/2025",
+    "category":"MCMASTER",
+    "order_number":"0211JALEXANDER",
+    "quantity":8.0
+  },
+  {
+    "item_number":"2584N224.0",
+    "item":"Displayport Cord, Displayport Plug x Dvi Plug, 3 Ft. Length",
+    "amount":95.15,
+    "month":"February",
+    "purchase_date":"2\/20\/2025",
+    "category":"MCMASTER",
+    "order_number":"0220JALEXANDER",
+    "quantity":5.0
+  },
+  {
+    "item_number":"71535K41.0",
+    "item":"Electronic Equipment Power Cord, Nema 5-15 Plug x Iec C13 Socket, 18 Wire Gauge, 3' Long, Svt",
+    "amount":33.30,
+    "month":"February",
+    "purchase_date":"2\/20\/2025",
+    "category":"MCMASTER",
+    "order_number":"0220JALEXANDER",
+    "quantity":6.0
+  },
+  {
     "item_number":401367.0,
     "item":"Linzer Better Brush Set 3 Flat Package of 3",
     "amount":39.78,
@@ -1068,6 +1108,86 @@
     "category":"Paint and Supplies",
     "order_number":"0151099715",
     "quantity":2.0
+  },
+  {
+    "item_number":"2584N223.0",
+    "item":"Displayport Cord, Displayport Plug x Hdmi Plug, 10 Ft. Length",
+    "amount":116.44,
+    "month":"February",
+    "purchase_date":"2\/24\/2025",
+    "category":"MCMASTER",
+    "order_number":"0224JALEXANDER",
+    "quantity":4.0
+  },
+  {
+    "item_number":"77845T85.0",
+    "item":"Covers For Touch-Up Paint Roller For Tight Spaces",
+    "amount":6.80,
+    "month":"February",
+    "purchase_date":"2\/25\/2025",
+    "category":"MCMASTER",
+    "order_number":"0225JALEXANDER",
+    "quantity":2.0
+  },
+  {
+    "item_number":"7023T7.0",
+    "item":"No-Slip Paint Roller Frame For 4 Roller Cover Length",
+    "amount":14.40,
+    "month":"February",
+    "purchase_date":"2\/25\/2025",
+    "category":"MCMASTER",
+    "order_number":"0225JALEXANDER",
+    "quantity":2.0
+  },
+  {
+    "item_number":"10355T35.0",
+    "item":"Paint Roller For Small Round Surfaces",
+    "amount":6.39,
+    "month":"February",
+    "purchase_date":"2\/25\/2025",
+    "category":"MCMASTER",
+    "order_number":"0225JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"7754T41.0",
+    "item":"Foam Brush, 1 Wide x 1-7/8 Long x 1/2 Thick Foam Brush",
+    "amount":19.43,
+    "month":"February",
+    "purchase_date":"2\/25\/2025",
+    "category":"MCMASTER",
+    "order_number":"0225JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"7754T42.0",
+    "item":"Foam Brush, 2 Wide x 2-3/8 Long x 1/2 Thick Foam Brush",
+    "amount":24.00,
+    "month":"February",
+    "purchase_date":"2\/25\/2025",
+    "category":"MCMASTER",
+    "order_number":"0225JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"1822N22.0",
+    "item":"Twist-And-Lock Gu24 Base Light Bulb, Standard, 60W Equivalent Incandescent, Warm 3000K",
+    "amount":219.02,
+    "month":"February",
+    "purchase_date":"2\/25\/2025",
+    "category":"MCMASTER",
+    "order_number":"0225JALEXANDER",
+    "quantity":2.0
+  },
+  {
+    "item_number":"3372T72.0",
+    "item":"Wire Rope Clamp And Thimble Kit-Not For Lifting With 2 Galvanized Iron Clamps, For 1/16 Rope Diameter",
+    "amount":7.52,
+    "month":"February",
+    "purchase_date":"2\/26\/2025",
+    "category":"MCMASTER",
+    "order_number":"0226JALEXANDER",
+    "quantity":4.0
   },
   {
     "item_number":304110.0,
@@ -1187,6 +1307,86 @@
     "purchase_date":"3\/5\/2025",
     "category":"Plumbing",
     "order_number":"0151208763",
+    "quantity":1.0
+  },
+  {
+    "item_number":"2633K66.0",
+    "item":"Faucet Cartridge For Elkay Faucets, Model Number 45923C",
+    "amount":29.17,
+    "month":"March",
+    "purchase_date":"3\/11\/2025",
+    "category":"MCMASTER",
+    "order_number":"0311JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"2633K67.0",
+    "item":"Faucet Cartridge For Elkay Faucets, Model Number 45924C",
+    "amount":29.17,
+    "month":"March",
+    "purchase_date":"3\/11\/2025",
+    "category":"MCMASTER",
+    "order_number":"0311JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"7171K36.0",
+    "item":"Video Adapter, Displayport Male x Hd15 Female",
+    "amount":36.44,
+    "month":"March",
+    "purchase_date":"3\/11\/2025",
+    "category":"MCMASTER",
+    "order_number":"0311JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"7377A46.0",
+    "item":"Tamper-Resistant T20 Torx Bit, 1/4 Hex Shank",
+    "amount":10.20,
+    "month":"March",
+    "purchase_date":"3\/17\/2025",
+    "category":"MCMASTER",
+    "order_number":"0317JALEXANDER",
+    "quantity":3.0
+  },
+  {
+    "item_number":"3835A27.0",
+    "item":"Magnetic Retriever With Cushion Grip, 7 To 34 Adjustable Overall Length, Stainless Steel",
+    "amount":15.65,
+    "month":"March",
+    "purchase_date":"3\/17\/2025",
+    "category":"MCMASTER",
+    "order_number":"0317JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"60025A65.0",
+    "item":"Screwdriver-Style Pry Bar, 12 Overall Length",
+    "amount":20.20,
+    "month":"March",
+    "purchase_date":"3\/17\/2025",
+    "category":"MCMASTER",
+    "order_number":"0317JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"6000A2.0",
+    "item":"Nail-Pulling Pry Bar, Gooseneck Claw x Offset Claw End, 7-1/4 Overall Length",
+    "amount":7.06,
+    "month":"March",
+    "purchase_date":"3\/17\/2025",
+    "category":"MCMASTER",
+    "order_number":"0317JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"7779A22.0",
+    "item":"Marking Tape, 3M 471, Vinyl Plastic, 1/2 Wide, 108 Feet Long, White",
+    "amount":167.04,
+    "month":"March",
+    "purchase_date":"3\/17\/2025",
+    "category":"MCMASTER",
+    "order_number":"0317JALEXANDER",
     "quantity":1.0
   },
   {
@@ -1410,6 +1610,26 @@
     "quantity":1.0
   },
   {
+    "item_number":"7326T11.0",
+    "item":"Air Conditioner Coil Cleaning Brush, 25-1/2 Overall Length With Polypropylene Bristles",
+    "amount":10.88,
+    "month":"March",
+    "purchase_date":"3\/24\/2025",
+    "category":"MCMASTER",
+    "order_number":"0324JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"72035K522.0",
+    "item":"Ul Class Cc Time-Delay Midget Fuse For Motors, 20A",
+    "amount":160.00,
+    "month":"March",
+    "purchase_date":"3\/24\/2025",
+    "category":"MCMASTER",
+    "order_number":"0324JALEXANDER",
+    "quantity":10.0
+  },
+  {
     "item_number":311873.0,
     "item":"Sylvania 13w Linear Compact Fluorescent Bulb",
     "amount":43.6,
@@ -1500,6 +1720,26 @@
     "quantity":1.0
   },
   {
+    "item_number":"2584N224.0",
+    "item":"Displayport Cord, Displayport Plug x Dvi Plug, 3 Ft. Length",
+    "amount":19.03,
+    "month":"April",
+    "purchase_date":"4\/3\/2025",
+    "category":"MCMASTER",
+    "order_number":"0403JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"2584N11.0",
+    "item":"Displayport Cord, Displayport x Displayport Plugs, 3 Feet Long",
+    "amount":16.02,
+    "month":"April",
+    "purchase_date":"4\/3\/2025",
+    "category":"MCMASTER",
+    "order_number":"0403JALEXANDER",
+    "quantity":1.0
+  },
+  {
     "item_number":701241.0,
     "item":"Honeywell Lyric T6 Pro Wi-Fi Programmable Thermostat",
     "amount":2303.9,
@@ -1567,6 +1807,16 @@
     "purchase_date":"4\/14\/2025",
     "category":"Tools",
     "order_number":"W230613502",
+    "quantity":1.0
+  },
+  {
+    "item_number":"2584N15.0",
+    "item":"Displayport Cord, Displayport x Hdmi Plugs, 6 Feet Long",
+    "amount":26.44,
+    "month":"April",
+    "purchase_date":"4\/14\/2025",
+    "category":"MCMASTER",
+    "order_number":"0414JALEXANDER",
     "quantity":1.0
   },
   {
@@ -1718,6 +1968,16 @@
     "category":"Plumbing",
     "order_number":"W230801892",
     "quantity":6.0
+  },
+  {
+    "item_number":"8357T6.0",
+    "item":"Hdmi Video Cord, Hdmi x Dvi-D Plugs, Flexible, 6 Feet Long",
+    "amount":48.72,
+    "month":"April",
+    "purchase_date":"4\/25\/2025",
+    "category":"MCMASTER",
+    "order_number":"0425JALEXANDER",
+    "quantity":4.0
   },
   {
     "item_number":131381.0,
@@ -2090,6 +2350,26 @@
     "quantity":4.0
   },
   {
+    "item_number":"7233A65.0",
+    "item":"Tamper-Resistant Torx Bit, 1/4 Hex Shank For Power Tools, T20 Size, 2 Overall Length",
+    "amount":28.70,
+    "month":"June",
+    "purchase_date":"6\/05\/2025",
+    "category":"MCMASTER",
+    "order_number":"0605JALEXANDER",
+    "quantity":5.0
+  },
+  {
+    "item_number":"7234K32.0",
+    "item":"Jumper Cable, Light Duty, 16 Feet Long",
+    "amount":63.59,
+    "month":"June",
+    "purchase_date":"6\/06\/2025",
+    "category":"MCMASTER",
+    "order_number":"0606JALEXANDER",
+    "quantity":1.0
+  },
+  {
     "item_number":289878.0,
     "item":"Duck Pro By Shurtape Contractor Grade, Colored Cloth Duct Tape Black",
     "amount":47.46,
@@ -2138,6 +2418,36 @@
     "category":"Lighting and Ceiling Fans",
     "order_number":"W231493547",
     "quantity":1.0
+  },
+  {
+    "item_number":"44445A66.0",
+    "item":"Cup Sanding Brush With Shank For Flat Surfaces, 3 Brush Diameter, 180 Grit",
+    "amount":33.90,
+    "month":"June",
+    "purchase_date":"6\/10\/2025",
+    "category":"MCMASTER",
+    "order_number":"0610JALEXANDER",
+    "quantity":2.0
+  },
+  {
+    "item_number":"2617N36.0",
+    "item":"Ball-End Color-Coded L-Keys, 13 Piece Hex Size Set",
+    "amount":40.35,
+    "month":"June",
+    "purchase_date":"6\/10\/2025",
+    "category":"MCMASTER",
+    "order_number":"0610JALEXANDER",
+    "quantity":1.0
+  },
+  {
+    "item_number":"4916A14.0",
+    "item":"Stainless Steel Brush With Shank For Flat Surfaces, 5/8 Brush Diameter",
+    "amount":22.47,
+    "month":"June",
+    "purchase_date":"6\/10\/2025",
+    "category":"MCMASTER",
+    "order_number":"0610JALEXANDER",
+    "quantity":3.0
   },
   {
     "item_number":189849.0,
@@ -2257,6 +2567,16 @@
     "purchase_date":"6\/16\/2025",
     "category":"Tools",
     "order_number":"W231568734",
+    "quantity":1.0
+  },
+  {
+    "item_number":"7011N101.0",
+    "item":"Hdmi Splitter, 1 Input Connection, 2 Output Connections",
+    "amount":64.77,
+    "month":"June",
+    "purchase_date":"6\/19\/2025",
+    "category":"MCMASTER",
+    "order_number":"0619JALEXANDER",
     "quantity":1.0
   },
   {
@@ -2390,6 +2710,16 @@
     "quantity":4.0
   },
   {
+    "item_number":"8553K103.0",
+    "item":"Flexible Ldpe Film, Semi-Clear White, 4 Feet x 100 Feet x 0.004",
+    "amount":26.67,
+    "month":"July",
+    "purchase_date":"7\/16\/2025",
+    "category":"MCMASTER",
+    "order_number":"0716JALEXANDER",
+    "quantity":1.0
+  },
+  {
     "item_number":269693.0,
     "item":"Diablo Tools 7-1/4 In X 60-Tooth Fine Finish Circular Saw Blade",
     "amount":24.69,
@@ -2408,5 +2738,165 @@
     "category":"Paint and Supplies",
     "order_number":"W232072797",
     "quantity":6.0
+  },
+  {
+    "item_number":"2617N36.0",
+    "item":"Color-Coded Easy-Align Ball-Tip L-Key",
+    "amount":40.35,
+    "month":"July",
+    "purchase_date":"7\/21\/2025",
+    "category":"MCMASTER",
+    "order_number":"NONE",
+    "quantity":1.0
+  },
+  {
+    "item_number":331983.0,
+    "item":"Klein Tools All-In-1 Precision Screwdriver Set With Case",
+    "amount":76.82,
+    "month":"July",
+    "purchase_date":"7\/21\/2025",
+    "category":"Tools",
+    "order_number":"W232130110",
+    "quantity":2.0
+  },
+  {
+    "item_number":241941.0,
+    "item":"Frost King 1/2 In. X 1/4 In. X 20 Ft. Brown Silicone Self-Stick Weatherseal",
+    "amount":29.09,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Hardware",
+    "order_number":"W232170567",
+    "quantity":1.0
+  },
+  {
+    "item_number":531039.0,
+    "item":"Danby 2.6 Cu Ft Black Energy Star Compact Refrigerator",
+    "amount":1057.72,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Appliances",
+    "order_number":"W232170567",
+    "quantity":4.0
+  },
+  {
+    "item_number":884320.0,
+    "item":"5-Cam, Hl1 Keyway Mailbox Lock",
+    "amount":54.08,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Hardware",
+    "order_number":"W232170567",
+    "quantity":4.0
+  },
+  {
+    "item_number":336041.0,
+    "item":"Maintenance Warehouse 1-Gang Unbreakable Polycarbonate Jumbo Blank Wall Plate In Gloss White, 10-Pack",
+    "amount":9.70,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Electrical",
+    "order_number":"W232170567",
+    "quantity":1.0
+  },
+  {
+    "item_number":336032.0,
+    "item":"Maintenance Warehouse 1-Gang Unbreakable Polycarbonate Standard-Size Duplex Wall Plate In Gloss Ivory, 10-Pack",
+    "amount":3.65,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Electrical",
+    "order_number":"W232170567",
+    "quantity":1.0
+  },
+  {
+    "item_number":112310.0,
+    "item":"Roundup Dual Action Weed & Grass Killer Plus 4 Month Preventer Rtu Pump N Go 1.3",
+    "amount":41.62,
+    "month":"July",
+    "purchase_date":"7\/23\/2025",
+    "category":"Grounds and Outdoors",
+    "order_number":"W232177939",
+    "quantity":1.0
+  },
+  {
+    "item_number":150405.0,
+    "item":"Swan Element Garden Hose Kink-Free 3/4 100 Length Contractor Grade",
+    "amount":84.68,
+    "month":"July",
+    "purchase_date":"7\/24\/2025",
+    "category":"Grounds and Outdoors",
+    "order_number":"W232192400",
+    "quantity":1.0
+  },
+  {
+    "item_number":749466.0,
+    "item":"Garden Hose Nozzle Brass Tipped Adjustable Spray Front Trigger Handle",
+    "amount":13.72,
+    "month":"July",
+    "purchase_date":"7\/24\/2025",
+    "category":"Grounds and Outdoors",
+    "order_number":"W232192400",
+    "quantity":1.0
+  },
+  {
+    "item_number":118335.0,
+    "item":"Maintenance Warehouse Extra Large Angle Broom W/ Flag Tip Bristles",
+    "amount":47.64,
+    "month":"July",
+    "purchase_date":"7\/24\/2025",
+    "category":"Cleaning and Janitorial",
+    "order_number":"W232192400",
+    "quantity":2.0
+  },
+  {
+    "item_number":158724.0,
+    "item":"Lasko Pro-Performance Pivoting Utility Fan, Black",
+    "amount":114.37,
+    "month":"July",
+    "purchase_date":"7\/24\/2025",
+    "category":"HVAC",
+    "order_number":"W232192400",
+    "quantity":1.0
+  },
+  {
+    "item_number":255668.0,
+    "item":"30 Direct Drive Drum Fan",
+    "amount":419.06,
+    "month":"July",
+    "purchase_date":"7\/24\/2025",
+    "category":"HVAC",
+    "order_number":"W232192400",
+    "quantity":2.0
+  },
+  {
+    "item_number":339524.0,
+    "item":"Ppg Architectural Finishes 7-Line Industrial Gloss Oil Paint, Black, 1 Gallon",
+    "amount":62.66,
+    "month":"July",
+    "purchase_date":"7\/25\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W232210189",
+    "quantity":1.0
+  },
+  {
+    "item_number":207492.0,
+    "item":"PPG Speedhide Interior Latex Paint Semi-Gloss Paint White/B1",
+    "amount":103.20,
+    "month":"July",
+    "purchase_date":"7\/25\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W232210189",
+    "quantity":1.0
+  },
+  {
+    "item_number":534137.0,
+    "item":"Seasons 5 Function 1.8 GPM 4 In. Round Showerhead In Chrome",
+    "amount":317.60,
+    "month":"July",
+    "purchase_date":"7\/25\/2025",
+    "category":"Paint and Supplies",
+    "order_number":"W232215624",
+    "quantity":40.0
   }
 ]
